@@ -11,3 +11,12 @@ export function breakIntoChunks(array: any[], chunkSize: number): Array<any> {
   }
   return chunks
 }
+
+export function removePuncuation(str: string) {
+
+  if (str.startsWith(',') || str.startsWith('.') || str.startsWith('-')) {
+    return str.slice(1);
+  }
+
+  return str;
+}
