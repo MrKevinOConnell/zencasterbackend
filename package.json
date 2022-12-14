@@ -19,7 +19,8 @@
     "dotenv": "^16.0.1",
     "ethers": "^5.7.2",
     "got": "^11.8.2",
-    "node-cron": "3.0.0"
+    "node-cron": "3.0.0",
+    "openai": "^3.1.0"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
